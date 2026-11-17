@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "altar",
+  "version": "${version}",
+  "name": "Altar Client",
+  "description": "Lightweight FPS-boosting client with a clean HUD and menu.",
+  "authors": ["Altar"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.altar.client.AltarClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "recommends": { "sodium": "*", "lithium": "*", "entityculling": "*", "ferritecore": "*", "immediatelyfast": "*" }
+}
